@@ -33,7 +33,7 @@ public class ListaTarefas {
     public List obterDescricoesTarefas() {
         return tarefasList;
     }
-
+    
     public static void main(String[] args) {
         ListaTarefas listaTarefas = new ListaTarefas();
         System.out.println("Total de tarefas na lista: " + listaTarefas.obterNumeroTotalTarefas());
