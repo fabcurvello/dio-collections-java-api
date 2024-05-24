@@ -33,4 +33,22 @@ public class ConjuntoConvidados {
     public void exibirConvidados(){
         System.out.println(convidadosSet);
     }
+
+    public static void main(String[] args) {
+        ConjuntoConvidados cc = new ConjuntoConvidados();
+        System.out.println("Existem " + cc.contarConvidados() + " dentro do Set de Convidados");
+
+        cc.adicionarConvidado("Convidado 1", 1001);
+        cc.adicionarConvidado("Convidado 2", 1002);
+        cc.adicionarConvidado("Convidado 3", 1003);
+        cc.adicionarConvidado("Convidado 4", 1004);
+        cc.adicionarConvidado("Convidado 5", 1004); //codConvite repetido. Não será incluído
+
+        System.out.println("Existem " + cc.contarConvidados() + " convidado(s) dentro do Set de Convidados");
+
+        cc.removerConvidadoPorCodigoConvite(1002);
+        System.out.println("Existem " + cc.contarConvidados() + " convidado(s) dentro do Set de Convidados");
+
+        cc.exibirConvidados();
+    }
 }
