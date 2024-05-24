@@ -48,7 +48,7 @@ public class AgendaContatos {
 
         ac.adicionarContato("Fabricio", "(21) 11111-1111");
         ac.adicionarContato("Fabricio C", "(21) 11111-1112");
-        ac.adicionarContato("Fabricio C", "(21) 11111-1113");
+        ac.adicionarContato("Fabricio C", "(21) 11111-1113"); //nome repetido. Não vai adicionar.
         ac.adicionarContato("Fabricio Curvello", "(21) 11111-1114");
         ac.adicionarContato("Flora", "(21) 11111-1111");
 
