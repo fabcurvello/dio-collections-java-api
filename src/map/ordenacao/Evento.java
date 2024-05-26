@@ -28,9 +28,6 @@ public class Evento {
 
     @Override
     public String toString() {
-        return "Evento{" +
-                "nomeEvento='" + nomeEvento + '\'' +
-                ", nomeAtracao='" + nomeAtracao + '\'' +
-                '}';
+        return "{ Evento: " + nomeEvento + " -> Atração: " + nomeAtracao + " } ";
     }
 }
